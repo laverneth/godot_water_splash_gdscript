@@ -11,9 +11,11 @@ A 2d water node in pure gdscript for Godot 3.2. You can bring it easily to your 
 - Damping: damping of the oscillations of the waves
 - Tension: rigity of the water (high is stiff, low is "fluid")
 - Spread: affect the size of the waves
- -Drag: how velocity of colliding body create wave depending on the x or y component.
+- Drag: how velocity of colliding body create wave depending on the x or y component. 
 
 Just add a texture to see the water, otherwise nothing is displayed. I have put a sample water texture for you. You can also modify the code to only display a polygon with a color and no texture.
+
+In general, I prefer to have a smaller drag in y than in x if the bodies have to walk inside the water and have a nice wave in front of them. Also it avoids to have a big wave rising when the player jumps in the water.
 
 Sometimes it's better to play a little bit with the parameters to understand how it works.
 You can add particles, shaders, whatever you want to make the water even more realistic.
