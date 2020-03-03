@@ -1,5 +1,6 @@
 # water_node
-## A 2d water node in gdscript for Godot 3.2
+## What is is?
+A 2d water node in pure gdscript for Godot 3.2. You can bring it easily to your project to simulate water like a small river or a pond. 
 
 ![alt tag](https://github.com/laverneth/godot_water_splash_gdscript/blob/master/water_node_parameters.png)
 
