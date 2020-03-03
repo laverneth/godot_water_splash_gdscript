@@ -4,13 +4,15 @@ extends Node2D
 
 export var nb_tiles = 10 setget _set_nb_tiles
 export var width = 32 setget _set_width
+export var height = 64 setget _set_height
+export var draw_color = Color(0.63,0.79,0.8, 0.2) setget _set_color
+export (Texture) var texture setget _set_texture
+
 export var damping = 0.05
 export var tension = 0.05
 export var spread = 0.05
 export var drag = Vector2(0.05,0.03)
-export var height = 64 setget _set_height
-export var draw_color = Color(0.63,0.79,0.8, 0.2) setget _set_color
-export (Texture) var texture setget _set_texture
+
 
 var water_columns = []
 
