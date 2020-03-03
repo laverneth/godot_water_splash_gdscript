@@ -1,11 +1,11 @@
 # water_node
-a 2d water node in gdscript for Godot 3.2
+##a 2d water node in gdscript for Godot 3.2
 
 ![alt tag](https://github.com/laverneth/godot_water_splash_gdscript/blob/master/water_node_parameters.png)
 
-Parameters:
- -nb tiles: number of tiles in the x direction
- -Width: width in pixel of each tile (the image in the repo is 32 width by 64 height)
+#Parameters:
+ *nb tiles: number of tiles in the x direction
+ *Width: width in pixel of each tile (the image in the repo is 32 width by 64 height)
  -Height: height in pixel of each tile
  -Damping: damping of the oscillations of the waves
  -Tension: rigity of the water (high is stiff, low is "fluid")
